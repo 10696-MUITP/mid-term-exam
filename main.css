@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  #landing {
+    background-image: url('https://source.unsplash.com/De8wMYoSSBc');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  #landing-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  #landing-text h2 {
+    font-size: 24px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  #images {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #images h2 {
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .caption {
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .caption h3 {
+    font-size: 24px;
+  }
+  
+  .caption p {
+    font-size: 16px;
+  }
+  
+  .carousel-img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .carousel-img img {
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer h3 {
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+  }
+  
